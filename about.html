@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta character="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta home="viewport" content="width=device-width,intial scale=1.0">
+        <title> THIS IS MOHINI CHAUHAN</title>
+        <link rel="stylesheet"href="about.css">
+
+
+
+    </head>
+    <body>
+        
+        
+        <div class="container">
+            <div class="sidebar sidebarGo">
+                <nav>
+                    <ul>
+                        <li><a href="portfolio.html">HOME</a></li>
+
+                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li><a href="Blog.html">BLOGS</a></li>
+                        <li><a href="contact.html">CONTACT ME</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            <div class="main" >
+                <div class="hamburger">
+                    <img class="ham" src="ham.png"alt=""width="23px">
+                    <img class="cross"src="cross.png"alt=""width="23px">
+                </div>
+                <h1>ABOUT ME</h1>
+                <br>
+                <p>My Name is Mohini An undergraduate student at NSUT persuing my BTech in <em>Informtation Technelogy</em>.Currently in my second year.</p>
+                <br>
+                <h2>My Skills</h2>
+                <br>
+                <div class="SkillContainer">
+                    <div class="SkillItem">HTML:<div class="skill"></div></div>
+                    <div class="SkillItem">CSS:<div class="skill t1"></div></div>
+                    <div class="SkillItem">Javascript:<div class="skill t2"></div></div>
+                    <div class="SkillItem">C:<div class="skill t3"></div></div>
+                    <div class="SkillItem">C++:<div class="skill t4"></div></div>
+                    <div class="SkillItem">Python:<div class="skill t5"></div></div>
+                </div>
+                
+                <h2>Education</h2>
+                <div class="Education">
+                    <br>
+                    2018-2019:10th From <em style="color:crimson;">Apeejay School Saket</em>
+                    Percentage:96.6%
+                    <br>
+                    2020-2021:12th  from <em style="color:crimson;">Apeejay School Saket</em>
+                    Percentage:94%
+                    <br>
+                    2021-Present:Btech in Information Technelogy From <em Style="color:crimson;">Netaji Subhash University of Technelogy</em>
+                    <br>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <h2>My Projects</h2>
+                <br>
+                <br>
+                <br>
+                <h2>Work Experience</h2>
+                <br>
+                <br>
+                <h2>Hobbies</h2>
+                <br>
+                <br>
+                <h2>Achievements</h2>
+                <br>
+                <br>
+                
+            </div>
+        </div>
+        <script >
+            document.querySelector('.cross').style.display='none';
+            document.querySelector('.hamburger').addEventListener("click",()=>{
+                document.querySelector('.sidebar').classList.toggle('sidebarGo');
+                if(document.querySelector('.sidebar').classList.contains('sidebarGo')){
+                    document.querySelector('.ham').style.display='inline';
+                    document.querySelector('.cross').style.display='none';
+
+
+                }
+                else{
+                    document.querySelector('.ham').style.display='none';
+                    setTimeout(()=>{
+                        document.querySelector('.cross').style.display='inline';
+
+                    },400);
+        
+
+                }
+            })
+            
+        </script>
+        
+
+    </body>
+
+</html>

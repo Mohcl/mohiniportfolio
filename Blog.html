@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta character="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta home="viewport" content="width=device-width,intial scale=1.0">
+        <title> THIS IS MOHINI CHAUHAN</title>
+        <link rel="stylesheet"href="Blog.css">
+
+
+
+    </head>
+    <body>
+        
+        
+        <div class="container">
+            <div class="sidebar sidebarGo">
+                <nav>
+                    <ul>
+                        <li><a href="portfolio.html">HOME</a></li>
+
+                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li><a href="/">BLOGS</a></li>
+                        <li><a href="contact.html">CONTACT ME</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            <div class="main" >
+                <div class="hamburger">
+                    <img class="ham" src="ham.png"alt=""width="23px">
+                    <img class="cross"src="cross.png"alt=""width="23px">
+                </div>
+                <div class="BlogContainerone">
+                    <div class="bloginfo">
+                        
+                        <div class="name">hey!! Myself Mohini</div>
+                        <br>
+                        <br>
+                        <div class="hello">I personally believe that we should Stay Away From Still People</div>
+                        <br>
+                        <br>
+                        <div class="about">1.STILL COMPLAINING:<br>
+                            2.STILL HATING<br>
+                            3.STILL BROKE<br>
+                            4.STILL NOWHERE<br>
+                            Stressors are ever present in our lives.In order to achieve more and be more productive we need to get rid of these still people.They still do these things despite knowing better and get stuck in every little thing.
+
+                        </div>
+                        <br><br>
+                        
+
+                    </div>
+                    <div class="blogpic"><img src="still_people.jpg" alt="Mohnini chauahan"></div>
+
+                </div>
+                <div class="BlogContainertwo" style="box-shadow:grey;">
+                    <div class="bloginfo">
+                        
+                        <div class="name">Hello My name is Mohini Chauhan</div>
+                        <br>
+                        <div class="hello">BALANCED DIET:How to Eat Right and Live Well</div>
+                        <br>
+                        <div class="about">
+                            A balanced diet is one which gives our body minerals,vitamins and nutirents on
+                            the daily basis.To stay healty you need stability in your meals.But how exactly can u 
+                            achieve that:
+                            <br>
+                            1.<em style="color:gold;">Watch your protiens:</em>
+                                Moderation is the anchor for the balanced diet and it brings everything else into focus.
+                            <br>
+                            2.<em style="color:gold;">Get Enough Protien and Fiber</em>
+                                Protien and fibre keep you strong and keep you full for longer duration.
+                            <br>
+                            3.<em style="color:gold;">Eat plenty fruits and vegetables</em>
+                                Natural goodness is a must and fruits and veggies have great health benifits.
+                            <br>
+                            4.<em style="color:gold;">Drink Water</em>
+                                Water holds your body together so you have to get enough to have a perfectlty balanced diet.
+                            <br>
+                            5.<em style="color:gold;">Reach for the fruit not cookie</em>
+                                Fruits are great for boosting your energy,hydration and plenty refreshing as a snack.
+                            <br>
+                            
+                        </div>
+                        
+
+                    </div>
+                    <div class="blogpic"><img src="Balanced_Diet.webp" alt="Mohnini chauahan"></div>
+
+
+                </div>
+                <div class="BlogContainerthree">
+                    <div class="bloginfo">
+                        
+                        
+                        <div class="name">Hola This is Mohini</div>
+                        <br><br>
+                        <div class="hello">EXCELLENT MASK FOR HAIR FALL</div>
+                        <br><br>
+                        <div class="about">Take fresh aloevra gel 3Tbsp and add 1 egg,1 Tbsp of coconut oil
+                            to it and mix it together and apply on your scalp for 30min-1hr.Wash it with Mild shampoo.
+                            Use this mask once in a week for good results.This mask controls your Hairfall instantly.
+                            It strengthen your hair roots and maintain its Ph level it control seasonal hair fall also.
+                            This mask is Legit in weight so that it penerates deeply in scalp and provide nourishment to hair 
+                            follicles.
+                            So try it and share your feedback with me .
+                        </div>
+                        <br>
+                        
+
+                    </div>
+                    <div class="blogpic"><img src="aloevera.jpg" alt="Mohnini chauahan"></div>
+
+                </div>
+                <footer>
+                    <div class="Disclaimer">
+                        The entire data is copied from internet via various site.The creator of the site is not responsible for 
+                        any of the flase information.It is requested to please verify the information before believing on it
+                    </div>
+                    <div class="buttons">
+                        
+
+                        <a href="contact.html">
+                        <button>Contact Me</button></a>
+                    </div>
+                    
+                </footer>
+                
+            </div>
+        </div>
+        <script >
+            document.querySelector('.cross').style.display='none';
+            document.querySelector('.hamburger').addEventListener("click",()=>{
+                document.querySelector('.sidebar').classList.toggle('sidebarGo');
+                if(document.querySelector('.sidebar').classList.contains('sidebarGo')){
+                    document.querySelector('.ham').style.display='inline';
+                    document.querySelector('.cross').style.display='none';
+
+
+                }
+                else{
+                    document.querySelector('.ham').style.display='none';
+                    setTimeout(()=>{
+                        document.querySelector('.cross').style.display='inline';
+
+                    },400);
+        
+
+                }
+            })
+            
+        </script>
+        
+
+    </body>
+
+</html>

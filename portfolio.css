@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allan');
+*{
+    margin: 0;
+    padding:0;
+    /*background-image: "D:\PORTFOLIO\vion.jfif";*/
+}
+h1{
+    padding:20px;
+    background-color:aqua;
+    position:absolute;
+    top:0px;
+    left:600px;
+    text-align:center;
+    display:inline;
+    border-width:8px;
+    font-weight:bold;
+    border-style: double;
+    border-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:5px;
+    text-shadow: 2px 2px lightgreen;
+
+    animation: animate 
+                1.5s linear infinite;
+        
+    
+}
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.sidebar{
+    /*background-color:salmon;*/
+    position:relative;
+    height:100vh;
+    border-width:10px;
+    background:url("vector-background-wallpaper-with-polygons-in-gradient-colors.jpg");
+    
+    background-size: contain;
+    background-position:right;
+    transition:transform 0.3s ease-in;
+    
+    
+    
+
+}
+
+.sidebar nav{
+    padding:30px;
+    text-align: center;
+    height:100vh;
+    line-height: 30px;
+    letter-spacing: 3px;
+
+}
+.sidebar nav li{
+    list-style:none;
+    padding: 33px 0px;
+
+    
+    
+
+}
+.sidebar nav li:hover{
+    color:crimson;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+
+}
+.sidebar nav li a:hover{
+    
+    color:blue;
+}
+.main{
+
+    /*background-color: greenyellow;*/
+    width:100vw;
+    height:100vh;
+   
+    background:url("84cd2a9fbc6cbd5522b2f048a56703a8.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-style: solid;
+    border-color: aquamarine;
+}
+.container{
+    display: flex;
+}
+.InfoContainer{
+    
+    
+    /*background-color:darksalmon;*/
+    height:58vh;
+    width:80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    border-style: solid;
+    border-width:4px;
+    border-radius:9px;
+    box-shadow: 4px 4px 4px 4px rgb(212, 209, 215);
+    word-wrap:break-word;
+}
+.devinfo{
+
+}
+.hello{
+    font-family: 'Allan';
+    font-size: 50px;
+    color: darkgreen;
+
+}
+.name{
+    font-weight: bold;
+    font-size:70px;
+    font-style:italic;
+    
+
+}
+.name
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 70px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.about{
+    font-size:60px;
+    color:indigo;
+    font-weight:bold;
+
+}
+.buttons{
+    
+    align-items: center;
+    margin-top:5px;
+}
+.buttons button{
+    text-align: center;
+    font-size:20px;
+    border-color: blue;
+    background-color: black;
+    color:antiquewhite;
+    border-width: 2px;
+    border-radius:6px;
+    border-style:solid;
+    font-weight: bold;
+    padding:9px 14px;
+    border-radius:22px;
+    margin:0px 3px;
+    cursor:pointer;
+
+}
+.buttons button:hover{
+    background-color:white;
+    color:black;
+}
+.devpic img{
+    margin-left:90px;
+    display:flex;
+    width:40vw;
+    height:58vh;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position:absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor:pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 135px;
+    margin-top:3px;
+}
+.ham{
+    margin-top:3px;
+}
+@media screen {
+    
+}

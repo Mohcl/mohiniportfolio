@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+    
+    /*background-image: "D:\PORTFOLIO\vion.jfif";*/
+}
+h1{
+    font-style: oblique;
+    font-weight:bold;
+    margin-left:200px;
+
+}
+.sidebar{
+    /*background-color:salmon;*/
+    position:relative;
+    height:100vh;
+    border-width:10px;
+    background:url("vector-background-wallpaper-with-polygons-in-gradient-colors.jpg");
+    
+    background-size: contain;
+    background-position:right;
+    transition:transform 0.3s ease-in;
+    
+    
+    
+    
+
+}
+
+.sidebar nav{
+    padding:30px;
+    text-align: center;
+    height:100vh;
+    line-height: 30px;
+    letter-spacing: 3px;
+
+}
+.sidebar nav li{
+    list-style:none;
+    padding: 33px 0px;
+
+    
+    
+
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+
+}
+.sidebar nav li a:hover{
+    
+    color:blue;
+}
+
+
+.container{
+    display:flex;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+
+    padding:0px;
+    margin:0px;
+}
+.main{
+    width:100%;
+    height:100%;
+    
+    
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    padding-right:300px;
+}
+p{
+    margin-left:220px;
+    font-family: monospace;
+    font-size:larger;
+}
+h2{
+    margin-left:200px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position:absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor:pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 135px;
+    margin-top:3px;
+    background-color: #fff;
+}
+.ham{
+    margin-top:3px;
+    background-color: #fff;
+}
+.SkillContainer{
+    margin-left:200px;
+    padding:12px;
+
+}
+.skill{
+    width:265px;
+    height:6px;
+    background-color:red;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.t1{
+    width:200px;
+    height:6px;
+    background-color:red;
+
+}
+.t2{
+    width:120px;
+    height:6px;
+    background-color:red;
+    
+}
+.t4{
+    width:180px;
+    height:6px;
+    background-color:red;
+}
+.t5{
+    width:150px;
+    height:6px;
+    background-color:red;
+}
+.SkillItem{
+    display:flex;
+    align-items: center;
+    font-weight: 700;
+}
+.Education{
+    font-weight:600;
+    margin-left:220px;
+}
